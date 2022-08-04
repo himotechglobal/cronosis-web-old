@@ -80,6 +80,24 @@ tr {
 .navbar-collapse {
   flex-grow: 0;
 }
+.drop{
+  border: none;
+  background: transparent;
+}
+ i{
+  padding-right: 5px;
+}
+.dropdown-menu{
+      --bs-dropdown-min-width: 122px;
+    background-color: #051823;
+}
+.dropdown-item{
+  color: white;
+  opacity: 0.6;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -99px;
+}
 .navbar-nav {
   padding-right: 110px;
   gap: 20px;
@@ -877,7 +895,7 @@ input {
   padding-top: 30px;
 }
 .comp2 {
-  padding-bottom: 150px;
+  padding-bottom: 335px;
 }
 .reward {
   padding: 25px 0;

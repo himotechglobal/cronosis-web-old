@@ -89,9 +89,58 @@ const Header = () => {
                   </div>
                   <Modalconnect />
 
-                  <Link to={"/"}>
-                    <img src={doticon} alt="" className="dot img-icon" />
-                  </Link>
+                  <div class="dropdown">
+                    <button
+                      className=" drop"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src={doticon} alt="" className="dot img-icon" />
+                    </button>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa-brands fa-facebook-f"></i>Facebook
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://twitter.com/i/flow/login"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa-brands fa-twitter"></i>Twitter
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://github.com/login"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa-brands fa-github"></i>Github
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://github.com/login"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i class="fa-solid fa-book"></i>Documentation
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
